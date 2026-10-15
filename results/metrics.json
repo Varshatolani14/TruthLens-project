@@ -1,0 +1,39 @@
+{
+  "dataset": {
+    "test_size": 1500,
+    "fake": 750,
+    "real": 750
+  },
+  "logistic_regression_tfidf": {
+    "accuracy": 0.974,
+    "precision": 0.9647058823529412,
+    "recall": 0.984,
+    "f1": 0.9742574257425742
+  },
+  "distilbert": {
+    "accuracy": 0.9933333333333333,
+    "precision": 0.9920212765957447,
+    "recall": 0.9946666666666667,
+    "f1": 0.9933422103861518
+  },
+  "confusion_matrix_distilbert": [
+    [
+      744,
+      6
+    ],
+    [
+      4,
+      746
+    ]
+  ],
+  "confusion_matrix_baseline": [
+    [
+      723,
+      27
+    ],
+    [
+      12,
+      738
+    ]
+  ]
+}

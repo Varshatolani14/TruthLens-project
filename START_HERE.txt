@@ -1,0 +1,13 @@
+TRUTHLENS AI - START HERE
+
+1. Read README.md.
+2. For the real project, run scripts/download_data.py.
+3. Then run src/preprocess.py.
+4. Run src/train_baseline.py.
+5. Run src/train_transformer.py in Google Colab with a GPU if possible.
+6. Run src/evaluate.py.
+7. Run src/explain.py.
+8. Run scripts/build_submission_docs.py to replace report/PPT metric placeholders with actual measured values.
+9. Run: streamlit run app.py
+
+The included sample data is only for smoke testing. Never use sample results in the final report.
